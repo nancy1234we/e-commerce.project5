@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+    margin-top: -2px;
+}
+h2{
+    color: #555;
+    text-align: center;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+     padding-left: 25px;
+     padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 30%;
+    min-width:250px;
+}
+.col-2 img{
+    max-width: 150%;
+    padding: 50% 0;
+}
+.col-2 h1{
+    color: #555;
+    margin-top: 20%;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 5px 0;
+}
+.col-2 .btn{
+    text-decoration: none;
+    display: inline-block;
+    background: #0f61a9;
+    color: #fff;
+    padding: 10px 18px;
+    margin: 25px 0;
+    border-radius: 10px;
+    transition: 4s ease;
+}
+.col-2.btn a:hover{
+    color:bisque;
+}
+
+.small.container{
+    max-width: 1300px;
+    margin: auto;
+     padding-left: 25px;
+     padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}   
+.header{
+    background: radial-gradient(rgba(238, 234, 234, 0.538) , #ef069691);
+}
+.header .row{
+    margin-top: 0px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 350px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    transition: transform 0.5s;
+}
+.col-3 img{
+    width: 100%;
+    justify-content: space-around;
+}
+.col-3 :hover{
+    transform: translateY(-5px);
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-around;
+}
+.col-4{
+    flex-basis: 30px;
+    padding: 10px;
+    min-width: 350px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: empty;
+    background: #5608bc;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 16px;
+}
+.rating .fa{
+    color: rgb(208, 101, 176);
+}
+.col-4 :hover{
+    color: #483f3f;
+    transform: translateY(-5px);
+}
+.offer{
+    background: radial-gradient(rgba(238, 234, 234, 0.538) , #ef069691);
+    
+    
+    margin: 80px;
+    padding: 30px 0;   
+}
+.col-2 .offer-img{
+padding: 50px;
+}
+small{
+    color: #555;
+}
+.h3{
+    color: #555;
+}
+.testimonials{
+    padding-top: 100px;
+}
+.testimonials .col-3{
+text-align: center;
+padding: 40px 20px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+cursor: pointer;
+transition: transform 0.5s;
+}
+.testimonials .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+     border-radius: 50%;
+}
+.testimonials .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: rgb(128, 80, 109);
+}
+.col-3 p{
+font-size: 12px;
+margin: 12px 0;
+color: #777;
+}
+.brands{
+    margin: 100px auto;
+}
+.brands .col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: sepia(100%);
+}
+.col-5 img:hover{
+    filter: sepia(0);
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 16px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    max-width: 250px;
+    margin-bottom: 20px;
+} 
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+flex-basis: 12%;
+text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
